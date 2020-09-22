@@ -1,0 +1,90 @@
+body{
+    background-color: #2b2a27 ;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 0 ; 
+}
+
+h2, h3, p{
+    margin: 0;
+}
+
+#hdr{
+    
+    min-height: 170px;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-top: 1.5em;
+}
+
+.hdr-bg{
+
+    background: url('london.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 260px;
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.3;
+    margin: 0;
+
+}
+
+.dest{
+    background: #e9890b ;
+}
+
+img{
+    width: 50%;
+}
+
+.dest{
+    width: 70%;
+    display: inline-block;
+}
+
+.btn{
+
+    text-decoration: none;
+    color: white;
+    padding: 2em, 2em;
+    border: 2px solid #7c4dff;
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.btn:hover{
+    background: #4400ff;
+}
+
+footer{
+    
+    background: #fad42b;
+    color: black;
+    height: 30px;
+    line-height: 30px;
+}
+
+h2, h3{
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+
+}
+
+.Contact{
+    background: #36362f;
+    min-height: 100px;
+}
+
+.prices{
+    background: #161616;
+    min-height: 100px;
+
+}
+
+section{
+    padding-bottom: 1em;
+}
